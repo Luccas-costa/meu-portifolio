@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= DM +Sans & display=swap');
+
+/*
+! Red 
+? Blue 
+^ Green 
+~ Yellow
+& Pink
+* Purple 
+todo Mustard 
+// Grey 
+*/
+
+/*?=================?*/
+   /*? media do Pc*/
+/*?=================?*/
+
+
+@media (max-width: 2000px) {
+    
+
+/*!=================!*/
+  /*! media do not */
+/*!=================!*/
+
+
+@media (max-width: 1600px) {
+
+    body {
+        background-color:red;
+    }
+}    
+
+
+/*^=================^*/
+/*^ media do cell*/
+/*^=================^*/
+
+
+@media (max-width: 768px) {
+    
+    body {
+        background-color: blue;
+    }
+
+}
