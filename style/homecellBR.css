@@ -13,36 +13,18 @@ todo Mustard
 // Grey 
 */
 
-/*?=================?*/
-   /*? media do Pc*/
-/*?=================?*/
+header#headertop {
+    display: flex;
+    padding: 20px 1px;
+}
 
+div#logonav {
+    padding-right: 220px;
+}
 
-@media (max-width: 2000px) {
-    
-
-/*!=================!*/
-  /*! media do not */
-/*!=================!*/
-
-
-@media (max-width: 1600px) {
-
-    body {
-        background-color:red;
-    }
-}    
-
-
-/*^=================^*/
-/*^ media do cell*/
-/*^=================^*/
-
-
-@media (max-width: 768px) {
-    
-    body {
-        background-color: blue;
-    }
-
+div#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 700px;
 }
