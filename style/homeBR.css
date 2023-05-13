@@ -1113,3 +1113,7 @@ img {
 #footercell {
     display: none;
 }
+
+.open {
+    display: block;
+}
