@@ -1,0 +1,558 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= DM +Sans & display=swap');
+
+/*
+! Red 
+? Blue 
+^ Green 
+~ Yellow
+& Pink
+* Purple 
+todo Mustard 
+// Grey 
+*/
+
+@media (max-width: 900px) {
+    
+    html,body {
+        max-height: 1000px;
+    }
+
+    header#headertop {
+        display: none;
+    }
+
+        hr {
+            padding-bottom: 60px;
+        }
+
+    main#maintop {
+        display: none;
+    }
+    
+    section#sectiontop {
+        display: none;
+    }
+
+    #botaogit {
+        width: 300px;
+    }
+
+    article#articletop {
+        display: none;
+    }
+
+        hr#h {
+            padding-top: 82px;
+            padding-bottom: 0px;
+        }
+
+    section#sectiondown {
+        display: none;
+    }
+
+    section#section2down {
+        display: none;
+    }
+
+    #sectionbutton {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    }
+
+
+/*==================================*/
+
+    #headertopcell {
+        display: contents;
+    }
+
+        #logonavcell {
+            display: inline;
+            padding-left: 7px;
+            padding-top: 20px;
+            padding-right: 1px;
+        }
+
+        #menuburguer {
+            display: inline;
+            float: right;
+            padding-top: 13px;
+            padding-right: 11px;
+        }
+
+/*==================================*/
+
+    #maintopcell {
+        display: contents;
+    }
+
+        #tdmaincell {
+            display: flex;
+            flex-direction: row;
+            padding-left: 57px;
+        }
+
+        #txtmaincell {
+            padding-right: 1px;
+        }
+
+        #olacell {
+            font-size: 40px;
+            padding-bottom: 0px;
+            margin-bottom: 2px;
+            color: white;
+            position: relative;
+            left: -11px;
+        }
+
+        #txt2cell {
+            font-size: 50;
+            position: relative;
+            left: 13px;
+        }
+
+        #txtpmaincell {
+            font-size: 18px;
+            color: rgb(130, 130, 130);
+            margin-bottom: 4%;
+            padding-bottom: 1px;
+            padding-left: 27px;
+        }
+
+        #pcell {
+            margin: 8px 0px;
+        }
+
+        #botoesnavcell {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            right: 16px;
+
+        }
+
+/*=================================*/
+
+    #sectiontopcell {
+        display: contents;
+    }
+
+        #tdsectioncell {
+            color: white;
+            text-align: center;
+            padding-top: 233px;
+        }
+
+        #sobremimcell {
+            font-size: 40px;
+            padding-top: 1px;
+        }
+
+        #txtsobremimcell {
+            font-size: 18px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 10px;
+        }
+
+        #h1cell {
+            margin: 0px;
+        }
+
+/*=================================*/
+
+    #articletopcell {
+        display: contents;
+    }
+
+        #hcell {
+            display: contents;
+            padding-bottom: 60px;
+        }
+
+        #espaçocell {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            -webkit-box-align: center;
+            align-items: center;
+            margin-top: 5%;
+        }
+
+        #txtbolascell {
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+        #btredessociais1 {
+            position: relative;
+            left: 190px;
+            margin-bottom: 90px;
+        }
+
+        #bola1cell {
+            position: relative;
+            left: 156px;
+            bottom: 720px;
+        }
+
+        #paofcell {
+            font-size: 18pt;
+            font-weight: bold;
+        }
+
+        #paocell {
+            position: relative;
+            left: -65px;
+            top: -21px;
+        }
+
+
+
+        #btredessociais2 {
+            position: relative;
+            left: 190px;
+            margin-bottom: 90px;
+        }
+
+        #bola2cell {
+            position: relative;
+            left: 133px;
+            bottom: 660px;
+        }
+
+        #foapcell {
+            font-size: 18pt;
+            font-weight: bold;
+        }
+
+        #oapcell {
+            position: relative;
+            left: 13px;
+            top: -21px;
+        }
+
+
+        #btredessociais3 {
+            position: relative;
+            left: 190px;
+            margin-bottom: 90px;
+        }
+
+        #bola3cell {
+            position: relative;
+            left: 99px;
+            bottom: 600px;
+        }
+
+        #apfocell {
+            font-size: 18pt;
+            font-weight: bold;
+        }
+
+        #apocell {
+            position: relative;
+            left: 13px;
+            top: -21px;
+        }
+
+
+
+
+        #btredessociais4 {
+            position: relative;
+            left: 190px;
+            margin-bottom: 90px;
+        }
+
+        #bola4cell {
+            position: relative;
+            left: 151px;
+            bottom: 540px;
+        }
+
+        #ofpacell {
+            font-size: 18pt;
+            font-weight: bold;
+        }
+
+        #opacell {
+            position: relative;
+            left: -40px;
+            top: -21px;
+        }
+/*====================================*/
+
+    #sectiondowncell {
+        display: contents;
+    }
+
+        #tdsection2cell {
+            position: relative;
+            top: -500px;
+        }
+
+        #oqueeufaçocell {
+            color: white;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        #txtoqueeufaçocell {
+            font-size: 34px;
+        }
+
+        #oef {
+            padding-bottom: 35px;
+
+        }
+
+        #boxoqueeufaçocell {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            -webkit-box-align: center;
+            align-items: center;
+            gap: 75px;
+        }
+
+
+
+
+        #box1cell {
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            width: 350px;
+            height: 250px;
+            background-color: rgb(33, 33, 33);
+            border-bottom: 5px solid #27ae60;
+            transition: 0.2s;
+        }
+
+        #box1img {
+            margin-top: 30px;
+            margin-left: 15px;
+            width: 20%; 
+        }
+
+        #box1pcell {
+            color: rgb(100, 100, 100);
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 5%;
+            margin-left: -2%;
+            line-height: 50px;
+        }
+
+
+
+
+        #box2cell {
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            width: 350px;
+            height: 250px;
+            background-color: rgb(33, 33, 33);
+            border-bottom: 5px solid #27ae60;
+            transition: 0.2s;
+        }
+
+        #box2img {
+            margin-top: 30px;
+            margin-left: 15px;
+            width: 20%;
+        }
+
+        #box2pcell {
+            color: rgb(100, 100, 100);
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 5%;
+            margin-left: 1%;
+            line-height: 50px;
+        }
+
+
+
+
+
+        #box3cell {
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            width: 350px;
+            height: 250px;
+            background-color: rgb(33, 33, 33);
+            border-bottom: 5px solid #27ae60;
+            transition: 0.2s;
+        }
+
+        #box3img {
+            margin-top: 30px;
+            margin-left: 15px;
+            width: 20%;
+        }
+
+        #box3pcell {
+            color: rgb(100, 100, 100);
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 5%;
+            margin-left: 5%;
+            line-height: 50px;
+        }
+/*=========================================*/
+
+    #section2downcell {
+        display: contents;
+    }
+
+        #tdsection3cell {
+            color: white;
+            padding-top: 80px;
+            position: relative;
+            top: -500px;
+        }
+
+
+        #txtminhashabilidadescell {
+            font-size: 50px;
+            padding-bottom: 20px;
+        }
+
+        #mhcell {
+            font-size: 40px; 
+            color: white;
+        }
+
+        #boxmhcell {
+            position: relative;
+            right: -18px;
+            width: 300px;
+            height: 890px;
+            padding: 20px;
+            background: rgb(33, 33, 33);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            border-radius: 13px;
+            font-weight: 700;
+        }
+
+        #box1mh {
+            position: relative;
+            top: 28px;
+        }
+
+        #htmlcell {
+            color: #27ae60;
+            font-size: 30px;
+            position: relative;
+            top: -20px;
+            left: 116px;
+            transition: 0.4s;
+        }
+
+
+        #box2mh {
+            position: relative;
+            top: 28px;
+        }
+
+        #csscell {
+            color: #27ae60;
+            font-size: 30px;
+            position: relative;
+            top: -20px;
+            left: 123px;
+            transition: 0.4s;
+        }
+
+
+
+
+
+        #box3mh {
+            position: relative;
+            top: 28px;
+        }
+
+        #jscell {
+            color: #27ae60;
+            font-size: 30px;
+            position: relative;
+            top: -40px;
+            left: 81px;
+            transition: 0.4s;
+        }
+
+        
+
+        #html5cell {
+            position: relative;
+            left: 80px;
+        }
+
+        #css3cell {
+            position: relative;
+            left: 80px;
+        }
+
+        #js3cell {
+            position: relative;
+            left: 80px;
+        }
+/*==================================*/
+
+    #sectionbuttoncell {
+        display: contents;
+    }
+
+        #botaoctt {
+            padding: 28px 123px;
+            border-radius: 50px;
+            border: 0;
+            background-color: #353434;
+            box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            font-size: 15px;
+            transition: all .5s ease;
+            position: relative;
+            top: -862px;
+            left: 10px;
+        }
+/*======================================================*/
+
+    #footercell {
+        display: contents;
+
+    }
+
+        #rodape {
+            user-select: none;
+            margin-top: 1px;
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            color: rgb(79, 79, 79);
+            position: relative;
+            top: 776px;
+        }
+/*======================================================*/

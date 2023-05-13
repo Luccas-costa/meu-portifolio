@@ -1075,3 +1075,41 @@ img {
     border-radius: 50%;
     box-shadow: 2px 4px 15px 0 #000;
 } 
+
+/*======*/
+
+#headertopcell {
+    display: none;
+}
+
+#maintopcell {
+    display: none;
+}
+
+#sectiontopcell{
+    display: none;
+}
+
+#hcell {
+    display: none;
+}
+
+#articletopcell {
+    display: none;
+}
+
+#sectiondowncell {
+    display: none;
+}
+
+#section2downcell {
+    display: none;
+}
+
+#sectionbuttoncell {
+    display: none;
+}
+
+#footercell {
+    display: none;
+}
