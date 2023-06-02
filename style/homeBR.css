@@ -169,6 +169,7 @@ div#txtmain {
 h1#ola {
     font-size: 50px;
     padding-bottom: 0px;
+    margin-top: 0px;
     margin-bottom: 5px;
     color: white;
 }
@@ -1116,4 +1117,12 @@ img {
 
 .open {
     display: block;
+}
+
+
+
+#saldacao {
+    color: rgb(130, 130, 130);
+    font-size: 38px;
+    margin-bottom: 0px;
 }
